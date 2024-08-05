@@ -4,7 +4,7 @@ export default {
     theme: {
         extend: {
             backgroundImage: {
-                wedding1: "url('./assets/pics/wedding1.jpg')",
+                wedding1: "url('https://wallpaperaccess.com/full/476336.jpg')",
             },
         },
     },
