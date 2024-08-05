@@ -3,10 +3,12 @@ import collage1 from '../assets/pics/collage1.png';
 
 function about() {
     return (
-        <div className='flex justify-between mt-20'>
-            <div>
-                <h1>ClassyPictures</h1>
-                <p className='bg-rose-900 p-20 rounded-xl'>
+        <div className='flex justify-between items-center mt-20'>
+            <div className=''>
+                <h1 className='text-7xl font-bold text-center'>
+                    CLASSYPICTURES
+                </h1>
+                <p className='bg-camerapic bg-cover p-20 rounded-xl h-[500px] opacity-80 text-justify'>
                     At ClassyPictures, we specialize in capturing moments with
                     elegance and sophistication. Our mission is to deliver
                     stunning, high-quality images that tell your unique story.
