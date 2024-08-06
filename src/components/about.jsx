@@ -3,7 +3,7 @@ import collage1 from '../assets/pics/collage1.png';
 
 function about() {
     return (
-        <div className='flex justify-between items-center mt-20'>
+        <div className='flex justify-between items-center my-20  gap-20'>
             <div className=''>
                 <h1 className='text-7xl font-bold text-center'>
                     CLASSYPICTURES
@@ -21,7 +21,7 @@ function about() {
                     work of art.
                 </p>
             </div>
-            <img src={collage1} alt='img2' className='rounded-xl w-1/2 p-20' />
+            <img src={collage1} alt='img2' className='rounded-xl w-1/3 py-20' />
         </div>
     );
 }

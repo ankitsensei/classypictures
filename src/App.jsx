@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from './components/navbar';
 import About from './components/about';
+import Contact from './components/contact';
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
                 </div>
             </div>
             <About />
+            <Contact />
         </div>
     );
 }
