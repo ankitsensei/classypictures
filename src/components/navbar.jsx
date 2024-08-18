@@ -9,7 +9,7 @@ function Navbar() {
     };
 
     return (
-        <div className='flex justify-between text-white px-10 py-5'>
+        <div className='flex justify-between text-white py-5'>
             <h1 className='text-3xl font-semibold'>CLASSYPICTURES</h1>
             <ul className='flex gap-10 text-xl'>
                 {Object.entries(navLinks).map(([key, value], index) => (
