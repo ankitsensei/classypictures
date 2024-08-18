@@ -1,18 +1,25 @@
 import React from 'react';
 
-function navbar() {
+function Navbar() {
+    const navLinks = {
+        Home: '/',
+        About: '/about',
+        Contact: '/contact',
+        'Book Now': '/book',
+    };
+
     return (
-        <div className='flex justify-between py-5'>
-            <p>ClassyPictures</p>
-            <div className='flex gap-10'>
-                {['Home', 'About', 'Contact'].map((item, index) => (
-                    <p className='hover:underline' key={index}>
-                        {item}
-                    </p>
+        <div className='flex justify-between text-white px-10 py-5'>
+            <h1 className='text-3xl font-semibold'>CLASSYPICTURES</h1>
+            <ul className='flex gap-10 text-xl'>
+                {Object.entries(navLinks).map(([key, value], index) => (
+                    <li key={index}>
+                        <a href={value}>{key}</a>
+                    </li>
                 ))}
-            </div>
+            </ul>
         </div>
     );
 }
 
-export default navbar;
+export default Navbar;
