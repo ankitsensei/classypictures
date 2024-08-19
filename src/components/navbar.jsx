@@ -1,8 +1,8 @@
 import React from 'react';
-
+import Dp from '../assets/pics/dp.jpeg';
 function Navbar() {
     return (
-        <div className='flex justify-between items-center text-white py-5 fixed z-40 w-full px-20 bg-zinc-900'>
+        <div className='flex justify-between items-center text-white py-5 fixed z-40 w-full px-20   '>
             <h1 className='text-3xl font-semibold'>CLASSYPICTURES</h1>
             <ul className='flex gap-10 text-xl items-center'>
                 <li>
