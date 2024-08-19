@@ -1,11 +1,11 @@
 import React from 'react';
-
+import Dp from './assets/pics/dp.jpeg';
 function About() {
     return (
-        <div className='text-white mt-20'>
+        <div className='text-white py-40'>
             <div className='flex justify-center gap-20 '>
                 <div className='w-2/3 flex flex-col justify-center items-left  gap-10 px-20'>
-                    <h1 className='text-7xl font-semibold text-sky-600'>
+                    <h1 className='text-9xl font-semibold text-sky-600'>
                         Intro
                     </h1>
                     <div className='text-2xl flex flex-col gap-10 text-balance'>
@@ -28,9 +28,11 @@ function About() {
                     </div>
                 </div>
                 <div className='w-1/3'>
-                    <div className='bg-sky-600 w-[400px] h-[600px] flex justify-center items-center rounded-[20px] '>
-                        abhishek's img
-                    </div>
+                    <img
+                        src={Dp}
+                        alt='dp'
+                        className='w-[400px] h-[600px] flex justify-center items-center rounded-2xl'
+                    />
                 </div>
             </div>
         </div>

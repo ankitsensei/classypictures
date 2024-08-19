@@ -12,7 +12,7 @@ function Navbar() {
                     <a href='#'>ABOUT</a>
                 </li>
                 <li>
-                    <a href='#'>CONTACT</a>
+                    <a href='#'>GALLERY</a>
                 </li>
                 <li className='bg-red-600 w-40 h-10 flex items-center justify-center rounded-[20px]'>
                     <a href='#'>BOOK NOW</a>
