@@ -5,3 +5,8 @@
 html {
     scroll-behavior: smooth;
 }
+.galleryImgs {
+    width: auto;
+    height: 500px;
+    border-radius: 20px;
+}
