@@ -2,7 +2,7 @@ import React from 'react';
 import Dp from './assets/pics/dp.jpeg';
 function About() {
     return (
-        <div className='text-white py-40'>
+        <div className='text-white py-40' id='about'>
             <div className='flex justify-center gap-20 '>
                 <div className='w-2/3 flex flex-col justify-center items-left  gap-10 px-20'>
                     <h1 className='text-9xl font-semibold text-sky-600'>
