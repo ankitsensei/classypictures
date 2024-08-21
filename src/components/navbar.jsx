@@ -9,10 +9,10 @@ function Navbar() {
                     <a href='#'>HOME</a>
                 </li>
                 <li>
-                    <a href='#'>ABOUT</a>
+                    <a href='#'>GALLERY</a>
                 </li>
                 <li>
-                    <a href='#'>GALLERY</a>
+                    <a href='#'>ABOUT</a>
                 </li>
                 <li className='bg-red-600 w-40 h-10 flex items-center justify-center rounded-[20px]'>
                     <a href='#'>BOOK NOW</a>
