@@ -1,5 +1,6 @@
 import React from 'react';
 import Dp from '../assets/pics/dp.jpeg';
+import BookNow from '../BookNow.jsx';
 function Navbar() {
     return (
         <div className='flex justify-between items-center text-white py-5 fixed z-40 w-full px-20   '>
@@ -15,7 +16,7 @@ function Navbar() {
                     <a href='#about'>ABOUT</a>
                 </li>
                 <li className='bg-red-600 w-40 h-10 flex items-center justify-center rounded-[20px]'>
-                    <a href='#'>BOOK NOW</a>
+                    <a href={BookNow}>BOOK NOW</a>
                 </li>
             </ul>
         </div>

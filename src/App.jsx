@@ -3,6 +3,7 @@ import Navbar from './components/Navbar.jsx';
 import Home from './Home.jsx';
 import About from './About.jsx';
 import Gallery from './Gallery.jsx';
+import BookNow from './BookNow.jsx';
 
 function App() {
     return (
