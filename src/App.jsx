@@ -6,7 +6,7 @@ import Gallery from './Gallery.jsx';
 
 function App() {
     return (
-        <div className='bg-zinc-900 w-full h-full px-10'>
+        <div className='bg-slate-900 w-full h-full px-10'>
             <Navbar />
             <Home />
             <Gallery />
