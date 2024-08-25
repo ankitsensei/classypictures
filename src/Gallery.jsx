@@ -23,7 +23,7 @@ function Gallery() {
     return (
         <div id='gallery' className='flex flex-col w-full gap-20'>
             <img src={Wed2} alt='wed2' className='rounded-[40px] ' />
-            <div className='flex wrap gap-8'>
+            <div className='flex flex-wrap gap-4 items-center'>
                 <img className='galleryImgs' src={CP1} alt='cp1' />
                 <img className='galleryImgs' src={CP2} alt='cp2' />
                 <img className='galleryImgs' src={CP3} alt='cp3' />
