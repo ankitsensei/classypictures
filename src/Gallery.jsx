@@ -21,9 +21,9 @@ import CP17 from './assets/gallery/CP (17).webp';
 import CP18 from './assets/gallery/CP (18).webp';
 function Gallery() {
     return (
-        <div id='gallery' className='flex flex-col w-full gap-20'>
+        <div id='gallery' className='flex flex-col w-full gap-5 '>
             <img src={Wed2} alt='wed2' className='rounded-[40px] ' />
-            <div className='flex flex-wrap gap-4 items-center'>
+            <div className='flex flex-wrap gap-4 justify-center bg-slate-900 py-20 rounded-[40px]'>
                 <img className='galleryImgs' src={CP1} alt='cp1' />
                 <img className='galleryImgs' src={CP2} alt='cp2' />
                 <img className='galleryImgs' src={CP3} alt='cp3' />
