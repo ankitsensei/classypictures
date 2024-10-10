@@ -1,8 +1,10 @@
 import React from 'react'
-
+import Navbar from './components/Navbar'
 function App() {
 return (
-    <div>App</div>
+    <div className="bg-zinc-900 text-white w-full h-screen">
+        <Navbar />
+    </div>
 )
 }
 

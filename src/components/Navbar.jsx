@@ -1,26 +1,27 @@
-import React from 'react';
-import Dp from '../assets/pics/dp.jpeg';
-import BookNow from '../BookNow.jsx';
-function Navbar() {
+import React from 'react'
+import Logo from '../assets/pics/logo.png'
+
+const Navbar = () => {
     return (
-        <div className='flex justify-between items-center text-white py-5 fixed z-40 w-full px-20'>
-            <h1 className='text-3xl font-semibold'>CLASSYPICTURES</h1>
-            <ul className='flex gap-10 text-xl items-center'>
-                <li>
-                    <a href='#'>HOME</a>
-                </li>
-                <li>
-                    <a href='#gallery'>GALLERY</a>
-                </li>
-                <li>
-                    <a href='#about'>ABOUT</a>
-                </li>
-                <li className='bg-red-600 w-40 h-10 flex items-center justify-center rounded-[20px]'>
-                    <a href={BookNow}>BOOK NOW</a>
-                </li>
-            </ul>
+        <div>
+            <div className='flex justify-between items-center mx-20 py-2'>
+                <div className='flex items-center gap-14'>
+                    <img src={Logo} alt="logo" className='h-14'/>
+                    <ul className='flex gap-14'>
+                        <li>Home</li>
+                        <li>Our Services</li>
+                        <li>Gallery</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <ul className='flex gap-8 items-center'>
+                    <li className='border-2 border-white px-10 py-2 rounded-[20px]'>Join</li>
+                    <li className='bg-white border-2 border-white text-black px-10 py-2 rounded-[20px]'>Book</li>
+                </ul>
+            </div>
+        <hr className='h-[1px] bg-white'/>
         </div>
-    );
+    )
 }
 
-export default Navbar;
+export default Navbar
